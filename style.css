@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #fdf6e3;
+    background-color: #f5e6d3;
     min-height: 120vh;
     margin: 0;
     display: flex;
@@ -244,7 +244,7 @@ body.is-loading .card-flap {
 /* Stile per TUTTO il testo (sia cliccabile che non) */
 .text-wrapper {
     font-family: 'Cormorant Garamond', serif;
-    color: #fefae0;           /* Tutto il testo è bianco */
+    color: #800020;           /* Tutto il testo è bianco */
     
     font-size: 0.8rem;      /* Dimensione testo */
     letter-spacing: 0.5px;
@@ -259,7 +259,7 @@ body.is-loading .card-flap {
 /* Stile SOLO per la parte cliccabile (il tag <a>) */
 .text-wrapper a {
     font-family: 'Cormorant Garamond',  serif;
-    color: #fefae0;           /* Anche il link è bianco */
+    color: #800020;           /* Anche il link è bianco */
     font-weight: bold;      /* Il link è in grassetto per distinguerlo */
     font-size: 0.8rem;  
     text-decoration: underline; /* Sottolineato per far capire che è un link */
@@ -273,8 +273,8 @@ body.is-loading .card-flap {
 
 /* Effetto Hover solo sulla parte cliccabile */
 .text-wrapper a:hover {
-    color: #f7f0be;         /* Cambia colore al passaggio del mouse */
-    background-color: rgba(255,255,255,0.1); /* Leggero sfondo al passaggio */
+    color: #a3243a;         /* Cambia colore al passaggio del mouse */
+    background-color: rgba(128, 0, 32, 0.1); /* Leggero sfondo al passaggio */
     border-radius: 4px;
 }
 /* --- KEYFRAMES --- */
