@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #f0e0c8;
+    background-color: var(--card-bg);
     min-height: 120vh;
     margin: 0;
     display: flex;
@@ -469,14 +469,14 @@ body.is-loading .card-flap {
     /* Aggiustiamo il link nella faccia 3 per essere sicuri che sia cliccabile su touch */
     /* Contenitore testo come desktop, ma proporzionato (percentuali) */
     .face-3 .link-container {
-        width: 40%;
+        width: 70%;
         height: 25%;
         
     }
 
     /* Testo proporzionato: resta simile al desktop, ma si adatta al viewport */
     .face-3 .text-wrapper {
-        font-size: clamp(0.55rem, 2.1vw, 0.7rem);
+        font-size: clamp(0.72rem, 1.2vw, 0.78rem);
         line-height: 1.25;
         letter-spacing: 0.3px;
     }
