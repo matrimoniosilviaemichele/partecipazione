@@ -476,7 +476,7 @@ body.is-loading .card-flap {
 
     /* Testo proporzionato: resta simile al desktop, ma si adatta al viewport */
     .face-3 .text-wrapper {
-        font-size: clamp(0.6rem, 2.5vw, 1rem);
+        font-size: clamp(0.72rem, 1.2vw, 0.78rem);
         line-height: 1.25;
         letter-spacing: 0.3px;
     }
