@@ -469,7 +469,7 @@ body.is-loading .card-flap {
     /* Aggiustiamo il link nella faccia 3 per essere sicuri che sia cliccabile su touch */
     /* Contenitore testo come desktop, ma proporzionato (percentuali) */
     .face-3 .link-container {
-        width: 70%;
+        width: 80%;
         height: 25%;
         
     }

@@ -469,7 +469,7 @@ body.is-loading .card-flap {
     /* Aggiustiamo il link nella faccia 3 per essere sicuri che sia cliccabile su touch */
     /* Contenitore testo come desktop, ma proporzionato (percentuali) */
     .face-3 .link-container {
-        width: 70%;
+        width: 80%;
         height: 25%;
         
     }
@@ -479,15 +479,9 @@ body.is-loading .card-flap {
         font-size: clamp(0.72rem, 1.2vw, 0.78rem);
         line-height: 1.25;
         letter-spacing: 0.3px;
-          
-        max-width: 32ch;
-        white-space: normal;
-        text-align: center;
     }
 
     .face-3 .text-wrapper a {
         font-size: inherit;
-    	display: inline;
-    	white-space: nowrap;
     }
 }/* Anti z-fighting + Safari/iOS */
