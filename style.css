@@ -480,7 +480,7 @@ body.is-loading .card-flap {
         line-height: 1.25;
         letter-spacing: 0.3px;
           
-        max-width: 28ch;
+        max-width: 32ch;
         white-space: normal;
         text-align: center;
     }
