@@ -377,18 +377,17 @@ body.is-loading .card-flap {
     /* Scala tempi della linguetta su mobile */
     .flap {
         animation-duration: calc(0.6s * var(--mobile-speed));
-        animation-delay: calc(4s * var(--mobile-speed));
+        animation-delay: calc(3.2s * var(--mobile-speed));
     }
 
     @keyframes backFaceOpacityMobile {
-        0%, 19% { opacity: 1; }
-	20%, 25% { opacity: 0; }
-    	100% { opacity: 0; }
+        0%, 39% { opacity: 1; }
+	40%, 100% { opacity: 0; }
     }
 
     @keyframes frontFaceOpacityMobile {
-        0%, 19% { opacity: 0; }
-        20%, 100% { opacity: 1; }
+        0%, 39% { opacity: 0; }
+        40%, 100% { opacity: 1; }
     }
 
     /* 2. Animazione Busta Mobile: 
