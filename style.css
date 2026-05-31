@@ -479,9 +479,15 @@ body.is-loading .card-flap {
         font-size: clamp(0.72rem, 1.2vw, 0.78rem);
         line-height: 1.25;
         letter-spacing: 0.3px;
+          
+        max-width: 28ch;
+        white-space: normal;
+        text-align: center;
     }
 
     .face-3 .text-wrapper a {
         font-size: inherit;
+    	display: inline;
+    	white-space: nowrap;
     }
 }/* Anti z-fighting + Safari/iOS */
