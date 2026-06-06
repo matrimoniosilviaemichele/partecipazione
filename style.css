@@ -161,7 +161,7 @@ body.is-loading .card-flap {
     z-index: 11; 
     
     animation: openFlap 0.8s forwards;
-    animation-delay: 4.5s; 
+    animation-delay: 5.5s; 
 }
 
 /* --- IL BIGLIETTO (CARD) --- */
@@ -173,7 +173,7 @@ body.is-loading .card-flap {
     z-index: 2;
     transform-style: preserve-3d;
     animation: extractAndCenter 3s forwards;
-    animation-delay: 5.5s;
+    animation-delay: 6.5s;
 }
 
 .card-flap {
@@ -182,7 +182,7 @@ body.is-loading .card-flap {
     transform-origin: top; 
     z-index: 20;
     animation: openCard 2s forwards;
-    animation-delay: 9s; 
+    animation-delay: 10s; 
 }
 
 /* Stili facce (uguali a prima) */
@@ -377,7 +377,7 @@ body.is-loading .card-flap {
     /* Scala tempi della linguetta su mobile */
     .flap {
         animation-duration: calc(0.6s * var(--mobile-speed));
-        animation-delay: calc(3.2s * var(--mobile-speed));
+        animation-delay: calc(4.2s * var(--mobile-speed));
     }
 
     @keyframes backFaceOpacityMobile {
@@ -416,13 +416,13 @@ body.is-loading .card-flap {
         
         animation-name: extractAndCenterMobile;
         animation-duration: calc(2s * var(--mobile-speed));
-        animation-delay: calc(4s * var(--mobile-speed));
+        animation-delay: calc(5s * var(--mobile-speed));
     }
 
     /* Scala tempi apertura card su mobile */
     .card-flap {
         animation-duration: calc(1.5s * var(--mobile-speed));
-        animation-delay: calc(6.5s * var(--mobile-speed));
+        animation-delay: calc(7.5s * var(--mobile-speed));
     }
 
     /* Solo mobile: ruota di 180° le immagini “di background” della card (facce 2 e 3) */
